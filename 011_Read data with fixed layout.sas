@@ -10,7 +10,7 @@ DATA DATE_DATA2;
  firstdate='01JAN1960'd;
  seconddate=366;
  FORMAT firstdate mmddyy10.;
- FORMAT seconddate date9.;
+ FORMAT seconddate mmddyy10.;
 RUN;
 
 
